@@ -8,7 +8,7 @@ export function FourSquares() {
     { id: 2, color: 'bg-blue-500', url: 'https://www.example.org' },
     { id: 3, color: 'bg-green-500', url: 'https://www.example.net' },
     { id: 4, color: 'bg-purple-500', url: 'https://www.example.io' },
-    { id: 5, color: 'bg-purple-500', url: 'https://kahoot.it/' },
+    { id: 5, color: 'bg-yellow-500', url: 'https://kahoot.it/' },
   ]
 
   return (
