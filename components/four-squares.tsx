@@ -14,15 +14,15 @@ export function FourSquares() {
 
   const squares: SquareProps[] = [
     {
-      id: 1, color: 'bg-white', url: 'https://kahoot.com/', description: 'Guto Kahoot',
+      id: 1, color: 'bg-white', url: 'https://kahoot.com/', description: 'Kahoot',
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-yellow', url: 'https://www.google.com/', description: 'Leonardo - Documento sobre cyber security',
+      id: 2, color: 'bg-white', url: 'https://www.google.com/', description: 'Leonardo - Documento sobre cyber security',
       font_color: 'text-black'
     },
     {
-      id: 3, color: 'bg-red', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'image',
+      id: 3, color: 'bg-blue', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'image',
       font_color: 'text-purple-500'
     },
 
