@@ -3,13 +3,34 @@
 import Link from 'next/link'
 
 export function FourSquares() {
-  const squares = [
-    { id: 1, color: 'bg-red-500', url: 'https://www.example.com' },
-    { id: 2, color: 'bg-blue-500', url: 'https://www.example.org' },
-    { id: 3, color: 'bg-green-500', url: 'https://www.example.net' },
-    { id: 4, color: 'bg-purple-500', url: 'https://www.example.io' },
-    { id: 5, color: 'bg-yellow-500', url: 'https://kahoot.it/' },
-  ]
+
+  type SquareProps = {
+    id: number;
+    color: string;
+    url: string;
+    description: string;
+    font_color: string
+  }
+
+  const squares: SquareProps[] = [
+    {
+      id: 1, color: 'bg-white', url: 'https://kahoot.com/', description: 'Guto Kahoot',
+      font_color: 'text-black'
+    },
+    {
+      id: 2, color: 'bg-white', url: 'https://www.google.com/', description: 'Leonardo - Documento sobre cyber security',
+      font_color: 'text-black'
+    },
+    {
+      id: 3, color: 'bg-white', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'image',
+      font_color: 'text-purple-500'
+    },
+    {
+      id: 4, color: 'bg-white', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'download',
+      font_color: 'text-black'
+    },
+
+  ];
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
@@ -20,9 +41,9 @@ export function FourSquares() {
             href={square.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${square.color} w-full aspect-square rounded-lg shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50 focus:ring-gray-400`}
+            className={`${square.color} ${square.font_color} w-full text-center justify-center flex items-center text-2xl text-white aspect-square rounded-lg shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50 focus:ring-gray-400`}
             aria-label={`Visit ${new URL(square.url).hostname}`}
-          />
+          >{square.description}</Link>
         ))}
       </div>
     </div>
