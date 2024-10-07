@@ -18,7 +18,7 @@ export function FourSquares() {
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-white', url: 'https://www.google.com/', description: 'Leonardo - Documento sobre cyber security',
+      id: 2, color: 'bg-yellow', url: 'https://www.google.com/', description: 'Leonardo - Documento sobre cyber security',
       font_color: 'text-black'
     },
     {
