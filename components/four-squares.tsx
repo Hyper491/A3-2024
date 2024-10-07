@@ -41,7 +41,7 @@ export function FourSquares() {
             href={square.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${square.color} ${square.font_color} w-full text-center justify-center flex items-center text-2xl text-white aspect-square rounded-lg shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50 focus:ring-gray-400`}
+            className={`${square.color} ${square.font_color} w-full text-center justify-center flex items-center text-2xl aspect-square rounded-lg shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50 focus:ring-gray-400`}
             aria-label={`Visit ${new URL(square.url).hostname}`}
           >{square.description}</Link>
         ))}
