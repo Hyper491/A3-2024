@@ -25,10 +25,6 @@ export function FourSquares() {
       id: 3, color: 'bg-blue-300', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'image',
       font_color: 'text-purple-500'
     },
-    {
-      id: 4, color: 'bg-white', url: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', description: 'download',
-      font_color: 'text-black'
-    },
 
   ];
 
