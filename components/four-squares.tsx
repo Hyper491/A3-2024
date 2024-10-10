@@ -14,7 +14,7 @@ export function FourSquares() {
 
   const squares: SquareProps[] = [
     {
-      id: 1, color: 'bg-white', url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1738223', description: 'Artigo Geral sobre "cyber crime"',
+      id: 1, color: 'bg-white', url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1738223', description: 'Artigo Geral sobre "Cyber crime"',
       font_color: 'text-black'
     },
     {
