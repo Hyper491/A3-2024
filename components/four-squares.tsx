@@ -14,28 +14,28 @@ export function FourSquares() {
 
   const squares: SquareProps[] = [
     {
-      id: 1, color: 'bg-white', url: 'https://www.kaspersky.com.br/resource-center/definitions/what-is-cyber-security', description: 'artigo',
+      id: 1, color: 'bg-white', url: 'https://www.kaspersky.com.br/resource-center/definitions/what-is-cyber-security', description: 'Artigo de cyber segurança',
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-red', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'video explicativo',
+      id: 2, color: 'bg-white', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'Video Explicativo - 1',
       font_color: 'text-black'
     },
     {
-      id: 3, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
-      font_color: 'text-purple-500'
+      id: 3, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video Explicativo - 2',
+      font_color: 'text-black'
     },
     {
-      id: 4, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
-      font_color: 'text-purple-500'
+      id: 4, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video Explicativo - 3',
+      font_color: 'text-black'
     },
     {
-      id: 5, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
-      font_color: 'text-purple-500'
+      id: 5, color: 'bg-white', url: 'https://kahoot.com/', description: 'Quiz 1',
+      font_color: 'text-black'
     },
     {
-      id: 6, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
-      font_color: 'text-purple-500'
+      id: 6, color: 'bg-white', url: 'https://kahoot.com/', description: 'Quiz 2',
+      font_color: 'text-black'
     },
 
   ];
