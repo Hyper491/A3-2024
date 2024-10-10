@@ -14,27 +14,27 @@ export function FourSquares() {
 
   const squares: SquareProps[] = [
     {
-      id: 1, color: 'bg-white', url: 'https://www.kaspersky.com.br/resource-center/definitions/what-is-cyber-security', description: 'Artigo de cyber segurança',
+      id: 1, color: 'bg-white', url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1738223', description: 'Artigo Geral sobre "cyber crime"',
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-white', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'Video - 1',
+      id: 2, color: 'bg-white', url: 'https://www.cisa.gov/', description: 'Site da CISA (Agência de segurança cibernética americana)',
       font_color: 'text-black'
     },
     {
-      id: 3, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video - 2',
+      id: 3, color: 'bg-white', url: 'https://www.youtube.com/watch?v=sS3mZVCARZg', description: 'Video 1 - Email duvidosos',
       font_color: 'text-black'
     },
     {
-      id: 4, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video - 3',
+      id: 4, color: 'bg-white', url: 'https://www.youtube.com/watch?v=1Luh3tBH-8I', description: 'Video 3 - O que são os "cyber crime"',
       font_color: 'text-black'
     },
     {
-      id: 5, color: 'bg-white', url: 'https://kahoot.com/', description: 'Quiz 1',
+      id: 5, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/story.php?title=cybersafe-quiz', description: 'Quiz 1 - cyber safaty',
       font_color: 'text-black'
     },
     {
-      id: 6, color: 'bg-white', url: 'https://kahoot.com/', description: 'Quiz 2',
+      id: 6, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/quizzes/cyber-crime-pretest', description: 'Quiz 2 - cyber crime',
       font_color: 'text-black'
     },
 
