@@ -26,15 +26,15 @@ export function FourSquares() {
       font_color: 'text-black'
     },
     {
-      id: 4, color: 'bg-white', url: 'https://www.youtube.com/watch?v=1Luh3tBH-8I', description: 'Video 3 - O que são os "cyber crime"',
+      id: 4, color: 'bg-white', url: 'https://www.youtube.com/watch?v=1Luh3tBH-8I', description: 'Video 3 - O que são os "Cyber crime"',
       font_color: 'text-black'
     },
     {
-      id: 5, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/story.php?title=cybersafe-quiz', description: 'Quiz 1 - cyber safaty',
+      id: 5, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/story.php?title=cybersafe-quiz', description: 'Quiz 1 - Cyber safaty',
       font_color: 'text-black'
     },
     {
-      id: 6, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/quizzes/cyber-crime-pretest', description: 'Quiz 2 - cyber crime',
+      id: 6, color: 'bg-white', url: 'https://www.proprofs.com/quiz-school/quizzes/cyber-crime-pretest', description: 'Quiz 2 - Cyber crime',
       font_color: 'text-black'
     },
 
