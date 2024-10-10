@@ -18,7 +18,7 @@ export function FourSquares() {
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-white', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'video explicativo',
+      id: 2, color: 'bg-red', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'video explicativo',
       font_color: 'text-black'
     },
     {
