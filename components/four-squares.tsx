@@ -25,6 +25,18 @@ export function FourSquares() {
       id: 3, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
       font_color: 'text-purple-500'
     },
+    {
+      id: 4, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
+      font_color: 'text-purple-500'
+    },
+    {
+      id: 5, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
+      font_color: 'text-purple-500'
+    },
+    {
+      id: 6, color: 'bg-blue-300', url: 'https://kahoot.com/', description: 'prova',
+      font_color: 'text-purple-500'
+    },
 
   ];
 
