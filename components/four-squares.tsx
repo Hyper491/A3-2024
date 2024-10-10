@@ -18,15 +18,15 @@ export function FourSquares() {
       font_color: 'text-black'
     },
     {
-      id: 2, color: 'bg-white', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'Video Explicativo - 1',
+      id: 2, color: 'bg-white', url: 'https://www.youtube.com/watch?v=yAHCyvXfLeA', description: 'Video - 1',
       font_color: 'text-black'
     },
     {
-      id: 3, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video Explicativo - 2',
+      id: 3, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video - 2',
       font_color: 'text-black'
     },
     {
-      id: 4, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video Explicativo - 3',
+      id: 4, color: 'bg-white', url: 'https://kahoot.com/', description: 'Video - 3',
       font_color: 'text-black'
     },
     {
